@@ -39,12 +39,14 @@ ul {
 .ticker {
     display: flex;
     align-content: center;
+    justify-content: space-between;
     background-color: #1f2937; 
-    padding: 0 150px;
+    padding: 100px 150px;
 }
 .ticker-lhs {
     display: flex;
     flex-direction: column;
+    padding-right: 64px;
 }
 
 .ticker-lhs-content {
@@ -53,9 +55,10 @@ ul {
     font-size: 18px;
 }
 
-.ticker-rhs {
-    display: flex;
-    
+button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .ticker-lhs-title {
@@ -64,4 +67,12 @@ ul {
     font-size: 48px;
     font-weight: 900;
 }
+
+.ticker-rhs {
+    display: flex;    
+}
+
+
+
+
 
