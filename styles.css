@@ -33,7 +33,12 @@ body {
 ul {
     display: flex;
     list-style: none;
-    gap: 16px;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 .ticker {
@@ -53,12 +58,17 @@ ul {
     display: flex;
     color: #E5E7EB;
     font-size: 18px;
+    padding: 16px 0px; 
 }
 
 button {
     background-color: #3882f6;
     color: #E5E7EB;
     font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    width: 20%;
+    padding: 8px
 }
 
 .ticker-lhs-title {
