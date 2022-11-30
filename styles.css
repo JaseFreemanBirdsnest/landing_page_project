@@ -45,7 +45,8 @@ a {
     align-content: center;
     justify-content: space-between;
     background-color: #1f2937; 
-    padding: 100px 150px;
+    padding: 100px 10%;
+    flex: 1;
 }
 .ticker-lhs {
     display: flex;
@@ -120,6 +121,7 @@ button {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
+    padding-bottom: 80px;
 }
 
 .quote {
@@ -143,7 +145,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 20%;
+    padding: 100px 10%;
 
 }
 
@@ -155,6 +157,7 @@ button {
     border-radius: 12px;
     gap: 20%;
     align-items: center;
+    flex: 1;
 }
 
 .cta-box button {
@@ -180,5 +183,12 @@ button {
     font-size: 24px;
 }
 
-
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 48px 0;
+}
 
